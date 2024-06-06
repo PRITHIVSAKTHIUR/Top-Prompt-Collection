@@ -15,7 +15,17 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 Check the the spaces in huggingface: https://huggingface.co/spaces/prithivMLmods/Top-Prompt-Collection
 
-![alt text](assets2/cc1.png)
+
+    # Make sure you have git-lfs installed (https://git-lfs.com)
+    git lfs install
+    
+    git clone https://huggingface.co/spaces/prithivMLmods/Top-Prompt-Collection
+    
+    # If you want to clone without large files - just their pointers
+    
+    GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/spaces/prithivMLmods/Top-Prompt-Collection
+
+![alt text](assets2/cc.png)
 
 
 ## The Sample Screenshot
