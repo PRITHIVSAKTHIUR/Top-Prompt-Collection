@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            
+        }
+
+        .gallery-item {
+            position: relative; 
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+
+        }
+
+        .gallery-item p {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .copy-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #FFA500;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+
+      <div class="gallery-item">
+    <img src="assets2/1.png" alt="Image 100">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Silhouette of Hamburger standing in front of a, dark blue sky, a little saturated orange in the background sunset, night time, dark background, dark black hair, cinematic photography, cinematic lighting, dark theme, shattered camera lens, digital photography, 70mm, f2.8, lens aberration, grain, boke, double exposure, shaterred, color negative ')"></i>
+</div>
+
+    
+<div class="gallery-item">
+    <img src="assets2/2.png" alt="Image 100">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional product photography of a (coffee cup, perfume bottle, hoodie) in front of a (vintage, modern) background --v 6.0 --style raw')"></i>
+</div>
+
+    
+<div class="gallery-item">
+    <img src="assets2/3.png" alt="Image 100">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A card game soft focus, dreamy atmosphere, natural light, detailed texture, romantic style, closeup shot --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+    
+<div class="gallery-item">
+    <img src="assets2/4.png" alt="Image 100">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A plastic orange Greek column with an emerald green head of Alexander the Great in the style of Alexander the Great, purple background, product photography --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+      
+      
+        <div class="gallery-item">
+    <img src="assets/1.png" alt="Image 1">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Cartoon 3D sunny bright Pixar-style image : super hero : full costume : cinematic --ar 68:128 --stylize 750 --v 5.2')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/2.png" alt="Image 2">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('(Masterpiece, award winning, professional, highly detailed), centered, medium shot, full body, anime style, illustration, stylized, oil painting, witch girl, cute, cuddling, holding moon, space planetary background, magical array, fractal art, hyper maximalism, (epic composition, epic proportion, surrealism), vibrant color, natural lighting, depth of field, HD, 64K, panoramic,
+')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/3.png" alt="Image 3">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Animal wolf warrior character, anthropomorphic figure, fantasy, d&d, masterwork, realistic figure, realism, hyper-detailed, cinematic lighting, photography, 32k uhd --ar 9:16 --s 750')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/4.png" alt="Image 4">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Daria Morgendorffer the main character of the animated series Daria, serious expression, very excites sultry look, so hot girl, beautiful charismatic girl, so hot shot, a woman wearing eye glasses, gorgeous figure, interesting shapes, life-size figures')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/5.png" alt="Image 5">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Spider man in dynamics, highly detailed, packed with hidden details, style, high dynamic range, hyper realistic, realistic attention to detail, highly detailed, 32K, intense close - ups, uhd image, realism, colorful realism, --ar 71:121 --s 750 --niji 5')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/6.png" alt="Image 6">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Superman, in dynamic, atmosphere of darkness and horror, dramatic light, highly detailed, packed with hidden details, hyper realistic, in the style of wallpaper portraits, colorful realism, realistic attention to detail, highly detailed, colorful realism, UHD, 8K')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/7.png" alt="Image 7">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('The Joker, a villain from the Batman film series, looks at himself in a broken mirror, in the style of Christopher Nolan, in dynamic, atmosphere of darkness and horror, dramatic light, highly detailed, packed with hidden details, hyper realistic, wallpaper portraits, colorful realism, realistic attention to detail, highly detailed,colorful realism, UHD, 8K')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/8.png" alt="Image 8">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a woman in black shirt with her arms folded against , in the style of tattoo, normcore, dark silver and dark gold, happycore, focus on joints/connections, effortlessly chic, palewave --ar 9:16 --stylize 750 --v 6')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/9.png" alt="Image 9">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('At night you can see tall neon light-lit buildings with holographic advertisements in a cyber dystopian city, highly detailed, cinematic noise, fade, photography, high contrast, 8k --ar 9:16 --s 750')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/10.png" alt="Image 10">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('photography, dynamic range, in the city, ollie motion with professional man skateboarder')"></i>
+</div>
+
+<div class="gallery-item">
+    <img src="assets/11.png" alt="Image 11">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Digital art of a beautiful tiger pokemon under an apple tree, cartoon style,Matte Painting,Magic Realism,Bright colors,hyper quality,high detail,high resolution, --video --s 750 --v 6.0 --ar 1:2')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/12.png" alt="Image 12">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Food photography, shakshuka, top view, in a luxurious Michelin kitchen style, studio lighting, depth of field, ultra detailed, --no 2 heads, 2 faces, heterochromia, cropped image, ((hat)), ((belt)), out of frame, necklace, draft, deformed hands, twisted fingers, double image, malformed hands, multiple heads, extra limb, ugly, poorly drawn hands, missing limb, disfigured, cut-off, ugly, grainy, low-res, Deformed, blurry, bad anatomy, poorly drawn face, mutation, mutated, floating limbs, disconnected limbs, disgusting, mutilated, mangled, extra fingers, duplicate artifacts, morbid, gross proportions, missing arms, mutated hands, mutilated hands, cloned face, malformed, blur, haze, out of focus, low resolution, low quality, watermark, out of frame, uneven exposure, tattoos, bad composition, jpeg artifacts, text, WOMAN, female')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/13.png" alt="Image 13">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A pattern of coffe grains, with soft lighting to highlight their texture and color contrast. Shot using a Nikon D850 camera with a macro lens, in the style of delicate photography --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/14.png" alt="Image 14">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Closeup of a man, low angle view, cloudy day, in the style of Guy Bourdin, film grain, hyper realistic, cinematic, street photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/15.png" alt="Image 15">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A studio photography of dinner dishes shot in front of a coffee house background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/16.png" alt="Image 16">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Dog a background with lights projections on it, in the style of black and white photography, shadow play, high contrast, reflections, mirrors')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/17.png" alt="Image 17">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Office environment, closeup portrait photography, light gray background, high detail, high resolution, shot in the style of Sony A7R V, cinematic, high contrast, sharp focus, natural features --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/18.png" alt="Image 18">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Beach suit outdoor playground with sand in between it. Minimalistic design --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/19.png" alt="Image 19">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Ghost woman\'s body hidden behind leaves, dark green colors, cinematic, fujifilm provia 400x --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/20.png" alt="Image 20">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Photo of an empty red running track with white lines, no people, closeup view, high resolution photography, in the style of Anthropic. The track has white lines and is empty with no people visible. It is a closeup view taken with high resolution photography --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/21.png" alt="Image 21">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Dog playing with a ball, the shot was taken on Kodak film for fashion photography purposes. It has a high contrast, hyper realistic and highly detailed style with a grainy quality, reminiscent of the style of kodak film photography. --ar 21:32 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/22.png" alt="Image 22">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a realistic photograph of two friends in a concert, taking a photo with one smartphone, in the crowd of a music festival, with a festive environment behind them, white, black, and sky blue palette, nikon 50mm --ar 117:119 --v 5.2 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/23.png" alt="Image 23">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('An illustration of a stars background with a modern vibe to it, using mainly pink color --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/24.png" alt="Image 24">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Child The background color should be bright yellow, In a big room. The overall mood would capture intense magenta lighting. It\'s an artistic photography. This photograph was taken by an award winning photographer using Canon EOS R5 camera and Fujifilm Provia film stock, color negative, invert, lens aberration, color aberration, deep focus, light leak')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/25.png" alt="Image 25">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A honda motorcycle with a rider speeding down the road at sunset, with a desert background, rendered in a photorealistic style, captured with a Canon EOS R5 camera --ar 82:101 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/26.png" alt="Image 26">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('The painting is in pink and red tones. There\'s also some handdrawn art work by an artist named Fisher Sizzato hanging around. In front there’s one sticker that says \'SKerne --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/27.png" alt="Image 27">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a group of people, city background, blurred photography, high definition, high resolution --ar 5:8 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/28.png" alt="Image 28">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('astrophotography of two giant nuclear stars colliding in a nebula. The image captures the stars merging in the style of Vincent van Gogh\'s starry night paintings with colorful wisps and swirls of glowing gas clouds. --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/29.png" alt="Image 29">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A drawing of an man made out of Hamburger, with a blue sky background, in the style of Stylized llustration, with soft pastel colors, pop art')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/30.png" alt="Image 30">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Olympic swimmer in the competition pool, captured from behind as he swims towards his starting point with grace and speed, vibrant colors of blue water and red, green, white, black, and gold racing lines on the side of the swimming area, shot in the style of Canon EOS camera with EFS lens, ultra realistic photography --ar 3:4 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+<div class="gallery-item">
+    <img src="assets/31.png" alt="Image 31">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a realistic photograph of one brunette woman and one man dancing in a wedding, taking a photo with one smartphone, with a festive environment behind them, white, black, and sky blue palette, nikon 50mm  --ar 117:119 --v 5.2 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/32.png" alt="Image 32">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('food photography of a purple smoothie jar with flying berries and a banana against a black background with studio lighting. The image is in the style of flying fruit typical in still life paintings --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/33.png" alt="Image 33">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A realistic photograph in a really artistic style of different clay structures --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/34.png" alt="Image 34">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Silver rings with diamonds on each finger against a black background. Shot in the style of David LaChapelle using a 35mm lens at f/8 --ar 51:64 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/35.png" alt="Image 35">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Many apples splashed with drops of water within a fancy bowl  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/36.png" alt="Image 36">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A children story book illustration of a hipo dressed with a pijama smiling and being happy  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/37.png" alt="Image 37">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Soccer ball on green grass, blurred background, closeup shot, stock photo style. Black and white photo. --ar 128:93 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/38.png" alt="Image 38">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Indian monument photography, closeup shot, detailed architecture, iconic building, clear sky, urban landscape, architectural masterpiece, cityscap --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/39.png" alt="Image 39">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a gold julep cup being filled with red liquid, blackberry garnish on top of the drink, shaker in hand, bottle of whiskey next to it, blue and orange lighting, cinematic photography, Canon eos r5, f/20, 8 k resolution, low angle shot, close up of cocktail glass --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/40.png" alt="Image 40">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A closeup of grass on the ground, symbolizing change and renewal in nature. The background is dark brown to make it stand out more against the earthy tones of autumn foliage. This scene creates an atmosphere that emphasizes natural beauty and serene moments of fall season. It can be used as wallpaper or cover photo for Instagram stories or social media posts related to fall season, nature photography, realistic photography, cinematic, high resolution --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+<div class="gallery-item">
+    <img src="assets/41.png" alt="Image 41">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Product photography, of a cat with dramatic lighting, high resolution photography, in the style of hyper realistic --ar 85:128')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/42.png" alt="Image 42">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Closeup of blonde woman depth of field, bokeh, shallow focus, minimalism, fujifilm xh2s with Canon EF lens, cinematic --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/43.png" alt="Image 43">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of a cat playing with a ball in the patio. Nikon 500, realistic photography.  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/44.png" alt="Image 44">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A studio photography of breakfast dishes shot in front of a fancy restaurant background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/45.png" alt="Image 45">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A woman long exposure with the fernsehturm tower behind it, early evening, blue sky, city lights, in the style of national geographic --ar 5:8 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/46.png" alt="Image 46">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('close up of an rabbit with red eyes, isolated on black background, photo realistic --ar 91:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/47.png" alt="Image 47">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A drawing of a colorful cookie jar that looks absolutely delicious, in style of a minimalist cartoon  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/48.png" alt="Image 48">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Googles behind the water pool background, close up, focus and bokeh effect. sport concept --ar 128:93 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/49.png" alt="Image 49">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A can of soda,on a rustic wooden table with a red checkered cloth underneath it, with some broken oaky pieces scattered next to it, food photography in the style of dark grey background, side view, centered composition, professional photo --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/50.png" alt="Image 50">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of the front view portrait of an Man in a full body dynamic pose on a red background in the style of high fashion moment, with rich colors, dramatic light, in a fantasy art style, with surrealism, elegant details, a golden ratio composition, and detailed texture')"></i>
+</div>
+
+<div class="gallery-item">
+    <img src="assets/51.png" alt="Image 51">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A cinematic photograph of a castle in the light of night in front of a nature background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/52.png" alt="Image 52">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A children story book illustration of a bear dressed with a dress smiling and being happy  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/53.png" alt="Image 53">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A platter of cinnamon rolls with some sugar on the side, on an old blue table top, red cloth in the background, top view, food photography, editorial style photo, high resolution. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/54.png" alt="Image 54">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of a cat playing with a ball in the garden. Nikon 500, realistic photography.  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/55.png" alt="Image 55">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A beautiful female boxer in the ring, red boxing gloves, sweat on her face and hair up, full body shot, cinematic shot, wide angle lens, f/20, shutter speed of sony alfa G Master camera with an aperture at F5.6 to capture both subjects and background , soft lighting, 8k, super realistic --ar 64:37 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/56.png" alt="Image 56">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Minimalistic photo of a fresh orange falling into water, with a blue background and splash bubbles around the orange, taken with soft light at a low angle in high resolution photography with high details, in the style of soft light. --ar 97:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/57.png" alt="Image 57">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('African American couple in the style of a flat vector illustration, with an orange and purple color scheme, and an African savannah landscape background. The man is wearing a white t-shirt and the woman has long hair. They have their backs to each other and look out into the distance, with one hand on his hip. There is sunset lighting and shadows, with simple shapes for buildings and trees in the foreground. It should be in high resolution and have a vector quality aesthetic --ar 127:96 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/58.png" alt="Image 58">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Glass of coke with a sugar rim and small white crystal chips, on a dark grey background, with red berries in the foreground, and cocktail sticks at each glass edge, in the style of Canon EOS photography, product shot. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/59.png" alt="Image 59">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A luxury sailing cruise ship with white sails, seen from the front in clear weather. The photo was taken by professional photographers using Canon EOS R5 and an ultrawideangle lens at f/8 to capture every detail of its elegant design. It was also photographed under bright sunlight. In addition, there was some mist floating around it, adding depth to the scene. This photograph showcases the boat as if on water, creating a stunning visual effect --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/60.png" alt="Image 60">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A drawing of a colorful candy that looks absolutely delicious, in style of a minimalist cartoon  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/61.png" alt="Image 61">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Close up photo of linzer cookies with jam in the center filled with apricot jam, patterned, on a red tablecloth background, dusted with sugar on top, star shaped windows filled with apricot jam, top view, symmetrical, food photography, high resolution, high detail --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/62.png" alt="Image 62">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of the mexican model posing for a Vogue photoshoot at forest. She has straight black hair with a middle parting. The light is soft and natural. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/63.png" alt="Image 63">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Closeup of an African rhino's horn, profile view, on the savannah in close up, in the style of National Geographic photo --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/64.png" alt="Image 64">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Silhouette photography of a fighter with a black background and a dark blue and gray style, in the style of symmetrical composition with a wideangle lens and soft lighting. Loneliness. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+<div class="gallery-item">
+    <img src="assets/65.png" alt="Image 65">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of two guys sitting in the back seat of an open jeep at dawn, on top of a mountain range, wearing beanies, in the style of Canon EOS, dark silhouettes looking out the window, view from inside the car. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/66.png" alt="Image 66">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Close up of a man running on the road in the park, depicting a healthy lifestyle concept, gym background. Stock photo 2/3 place for text stock photo 7089mm f4 56 mm fujifilm GFX medium format lens, capturing a sunset light, with a bokeh blur effect and flare --ar 16:11 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/67.png" alt="Image 67">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Portrait photography of a lion, with a dark blue background, in a minimalistic style. --ar 47:64 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/68.png" alt="Image 68">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional photo of a hot coffee being served on a cute cup on top of a kitchen counter  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/69.png" alt="Image 69">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Bicycle The background color should be bright yellow, In a big room. The overall mood would capture intense magenta lighting. It's an artistic photography. This photograph was taken by an award winning photographer using Canon EOS R5 camera and Fujifilm Provia film stock, color negative, invert, lens aberration, color aberration, deep focus, light leak')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/70.png" alt="Image 70">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Close up of an ice floe, sun rays and shadows, motion blur, abstract, cinematic, dark background, low angle, macro shot, golden hou --ar 3:4 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/71.png" alt="Image 71">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Close up of the corner detail of a rubber floor in an outdoor playground, the colors red and blue glitter on top, pastel tones, minimalist design, high resolution photography, high quality details, flat lay, symmetrical composition, natural light, neutral background, closeup, low angle shot, minimalistic style, modern architecture --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/72.png" alt="Image 72">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('An eagle flying in forest, high resolution, hyper realistic photograph in the style of professional color grading with soft shadows and clean, sharp focus digital photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/73.png" alt="Image 73">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional, Canon 500 photography of a industrial entrance in front of a blue sky representing an interesting contrast between the images --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/74.png" alt="Image 74">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A wide angle photo of the sea in Lecce, Italy with an empty concrete floor and white railings overlooking it, blue sky, light grey stone walls, minimalistic aesthetic, high resolution, photographed on grainy medium format Kodak Portra 800 film with a SMC Takumar 35mm f/ lens. Professional photography with very detailed and hyper realistic imagery in the style of cinematic lighting and shots. An ultradetailed and awardwinning photograph showcasing natural features. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/75.png" alt="Image 75">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Man closeup underwater. The water is clear blue with gentle ripples, reflecting light on the surface. Minimalist composition with a topdown perspective. Soft natural lighting enhances the serene atmosphere. Shot in the style of William Eggleston with Leica M6 using Kodak Portra film. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/76.png" alt="Image 76">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional photo of a cold drink being served on a cute cup on top of a modern table  --v 6.0 --style raw')"></i>
+</div>
+
+
+<div class="gallery-item">
+    <img src="assets/77.png" alt="Image 77">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Vector illustration of a deer silhouette in front of mountains and a lake, in a flat design style using vector graphics on a dark grey background, in a simple minimalistic style with low details, featuring white triangles and red suns inside the shape, white deer silhouettes, a gray sky with clouds, and trees around. Tshirt print design in the style of simplified vector graphics. Minimalism --ar 54:35 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/78.png" alt="Image 78">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A dog walking in the city high quality photography taken with an 80mm lens in sharp focus under natural daylight lighting with professional color grading and a post-century effect for a high resolution image in the style of impressionist photographers. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/79.png" alt="Image 79">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A studio photography of dinner dishes shot in front of a coffee house background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/80.png" alt="Image 80">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A studio portrait of a red hair model wearing a suit in front of a natural background  --v 6.0 --style raw')"></i>
+</div>
+
+
+<div class="gallery-item">
+    <img src="assets/81.png" alt="Image 81">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Portrait of young man with pink hair, looking to the side on white background, studio shot, photorealistic, 35mm lense --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/82.png" alt="Image 82">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Photograph of a beautiful ocean at sunset during golden hour, shot with a Sony Alpha A7 III and an f/2 lens, the water beautifully reflects the sky, the scene is peaceful and serene, capturing the beauty of nature's artistry in the style of Mother Nature --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/83.png" alt="Image 83">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Black and white studio portrait of young man with shaved head and short bearded, looking straight at camera, dark background, symmetrical composition, frontal view, portrait photography, Leica Q2, high contrast, minimalistic style, soft shadows, shallow depth of field, high resolution --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/84.png" alt="Image 84">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional, Canon 500 photography of a old building in front of a corporate debris representing an interesting contrast between the images --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/85.png" alt="Image 85">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Macro shot of a woman lips, monochrome, low light, high contrast, grainy --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/86.png" alt="Image 86">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A cream and indigo print of a Boat surrounded by white birds, in the minimalist style')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/87.png" alt="Image 87">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of an iconic movie scene featuring Man with a 90s aesthetic, flash photography, film grain, hyper realistic style in the style of polaroid film photo, with a grainy film filter effect')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/88.png" alt="Image 88">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of a dog standing in the sun, the sun is visible, blue sky, low angle shot, wearing a hat --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/89.png" alt="Image 89">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional product photography of a coffee cup in front of a modern background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/90.png" alt="Image 90">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Portrait of man with dark hair, illuminated in the style of green light, shot on canon eos r5 --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/91.png" alt="Image 91">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Boat the background lighting casts shadows over body shapes, desert, creating an atmosphere of intense focus and determination, hyper realistic photograph in the style of photography, nature')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/92.png" alt="Image 92">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of the ancient city egipcian, featuring its most famous building, surrounded by desert landscape, shot with Sony Alpha A9 II and lens at f/28 aperture for detailed textures and natural lighting, capturing the majestic architecture against a clear sky, with subtle shadows accentuating rock formations --ar 51:64 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/93.png" alt="Image 93">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Cinematic photograph of a house in the light of day in front of a nature background --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/94.png" alt="Image 94">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A handsome black man with a beard, wearing a maroon t shirt, facing the camera in an upper body shot, looking directly into the camera with studio lighting and a dark background. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+<div class="gallery-item">
+    <img src="assets/95.png" alt="Image 95">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A black Ford Mustang drove on the side of an empty road in British Columbia, Canada, surrounded by beautiful greenery and trees. Sunlight streamed through the forest as the car was illuminated from behind, lighting up the surrounding landscape with its headlights. It was captured in the style of Tyler Mitchell photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/96.png" alt="Image 96">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional photo of a cold drink being served on a cute cup on top of a kitchen counter --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/97.png" alt="Image 97">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Cat in the style of pixel art on a white background, vector illustration in a simple, minimalistic, low poly, low resolution style on all sides with low detail, in the flat design style with high contrast and a bright, vibrant color palette and color harmony trending colors, numbers, shadows')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/98.png" alt="Image 98">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A closeup of an ice coffee in a black plastic cup with the text have a good day on it, sitting next to green plants with a blurry background of natural sunlight and a wood table top. The photo has a shallow depth of field and was taken with a Nikon D850 camera and a 24-70mm f/3.5 lens at ISO 600, f/9 aperture, soft lighting, shallow focus, natural light, and a bokeh effect in the style of product photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/99.png" alt="Image 99">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('5 and Octane Render: An art piece showcasing a cute animal with a 5 aspect ratio and rendered- --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/100.png" alt="Image 100">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A black and white portrait of an average woman with curly hair holding a lily in front her face, there is pearl glitter on the petals, the background is white linen, shot from a medium angle, the light source comes out to one side  --ar 97:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/101.png" alt="Image 101">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A closeup of a cat, a window, in a rustic cabin, close up, with a shallow depth of field, with a vintage film grain, in the style of Annie Leibovitz and in the style of Wes Anderson. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/102.png" alt="Image 102">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A Flower, in a dark room with water reflection lights around her, dark fantasy themed, dark blue lighting, hyper realistic photography in the style of dark fantasy --no water')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/103.png" alt="Image 103">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A metal sci-fi cubes use macro photography techniques to highlight details and textures. High resolution, professional photograph with HDR and high detail in clean sharp focus --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/104.png" alt="Image 104">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional, Canon 500 photography of a cement truck in front of a corporate debris representing an interesting contrast between the images --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/105.png" alt="Image 105">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A pile of fallen leaves on the ground, closeup, top view, photography style, dark tones, autumn colors, natural light, rich details, and soft texture. The background is a forest with various shades of brown and green leaves scattered around it.,,in --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/106.png" alt="Image 106">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('An elegant glass of white wine being poured, against a dark bar background. Shot with a Sony A7R IV and macro lens for a detailed, high resolution close up with a very realistic focus on the texture of the liquid --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/107.png" alt="Image 107">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A dramatic coastal arch with crashing waves against rocky cliffs and trees on the left side of the frame in sunny light at golden hour on the Oregon coast. Fine art landscape photography with professional color grading and soft shadows with clean, sharp focus in the style of no contrast. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/108.png" alt="Image 108">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Illustration of Man, in the style of fauvism, neon lights, vibrant colors, soft shadows, cinematic lighting, sharp focus, high resolution, high quality, high details, rendered with octane, with volumetric lighting, global illumination, tone mapping, wide angle')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/109.png" alt="Image 109">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Silhouette of Flower in the background, red and orange light on the face, photography in the style of high fashion, movement, lights everywhere, abstract shadows')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/110.png" alt="Image 110">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Close up of a woman. A reflection can be seen in one of two mirrors hanging in the style of their frames attached to both sides of the windshield. --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+
+
+
+      <div class="gallery-item">
+    <img src="assets/111.png" alt="Image 111">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('photo of an off road camper driving along the ice mountains, in the style of unsplash photography, unsglied --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/112.png" alt="Image 112">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A studio photography of breakfast dishes shot in front of a coffee house background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/113.png" alt="Image 113">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A sailing ship in the ocean with a dark orange and red sky, shot from onboard, with white rope, sailing to Key West, people standing at the front of the boat looking out over the water, beautiful, in the golden hour lighting, with a Canon EOS R5 camera --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/114.png" alt="Image 114">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A tequila with lemons and salt, on wooden table, in the style of product photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/115.png" alt="Image 115">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('photography of the golden hour in an oasis with date palm trees, misty atmosphere, mysterious figure between palms  --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/116.png" alt="Image 116">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A apartment building in spring, with a cherry tree in the courtyard, sunlight, shadows, green and white striped walls, shot on Kodak gold film in the style of an impressionist artist.  --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/117.png" alt="Image 117">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Yellow flowers on a street background, in an aesthetic style --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/118.png" alt="Image 118">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A closeup of a man climbing a snow mountain In front of them. Photography in the style of Canon EOS R5, f/8 aperture setting for detail. --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/119.png" alt="Image 119">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of Bird, posing in a room withed light patterns, with teal and orange color grading, soft shadows, no contrast, clean sharp focus, in the style of cinematic photography.')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/120.png" alt="Image 120">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of the Petra Temple, one of Jordan's most iconic historical monuments, with its distinctive rock formations and intricate architecture, shot on Canon EOS R5 at F2 ISO400, contrasting colors, perfect details, in the style of hyper realistic photography, super resolution, high definition, full HD. --ar 51:64 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/121.png" alt="Image 121">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A cinematic photograph of a castle in the light of night in front of a nature background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/122.png" alt="Image 122">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A coffe cup minimalism, high resolution photography, in the style of Hasselblad camera X2D 90mm lens --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/123.png" alt="Image 123">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A cinematic photograph, nikon 500, of a waterfall right at sunrise --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/124.png" alt="Image 124">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('German tram in Berlin, light trails, long exposure, TV tower in the background, street photography, Canon EOS R5 --ar 5:8 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/125.png" alt="Image 125">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Margarita in an ornate rocks glass with a black rim, garnished with lemon and chocolate , on top of the cocktail is placed whipped cream and decorated around it with pumpkins, sitting atop a light orange table cloth with warm lighting, professionally photographed in the style of a Sony A7s iii camera --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/126.png" alt="Image 126">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of the butterfly nebula, a celestial masterpiece. The cloud-shaped gas and dust form in a shape resembling a delicate white, pink and orange red butterfly with wings spread wide across space. Stars light up its vibrant colors against a black background. Captured in the style of Hubble Space Telescope. --ar 109:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/127.png" alt="Image 127">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('close portrait photograph, mexican woman wearing orange jacket with hood up and ginger hair looking at camera in front of grey backdrop, lit by studio light, cinematic grain --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/128.png" alt="Image 128">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A platter of spiced ginger cookies with cinnamon and sugar, on an old silver tray, blue background, grey cloth next to the tray, top view, editorial photography, in the style of professional food photography --ar 128:101 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/129.png" alt="Image 129">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A cinematic photograph of a castle in the light of night in front of a city background --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/130.png" alt="Image 130">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of snowy mountains with Swiss chalets in the background, a pink sky, a trail leading up to it and small trees scattered around, shot on a Sony Alpha A7 III in the style of Ansel Adams.  --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/131.png" alt="Image 131">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo, the reflection shows Dog, and the sky with colorful clouds, sunset, double exposure, surrealism art, award winning photography in the style of instant film, Fujifilm Pro 400H film, color negative film, add noise, grain')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/132.png" alt="Image 132">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A hand holding an ice cream cone with two scoops of pink and white ice cream on a yellow background. The food photography is high resolution and high quality with a close up shot and clean sharp focus. The image has natural light with professional color grading and soft shadows without harsh highlights or text or logos --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/133.png" alt="Image 133">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Portrait of a beautiful woman in a hat, summer outfit, with freckles on her face, in a close up shot, with sunlight, outdoors, in soft light, with a beach background, looking at the camera, with high resolution photography, in the style of Hasselblad X2D50c --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/134.png" alt="Image 134">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A portrait of Dog, in the style of street photography, illuminated with cinematic dark red lighting. The model is posing creating a mysterious atmosphere, in the style of a romantic portrait, brutalism architecture, buildings in the background, wide angle')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/135.png" alt="Image 135">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional, Canon 500 photography of a old building in front of a blue sky representing an interesting contrast between the images  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/136.png" alt="Image 136">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of the New York City skyline seen across water at dusk. Birds are flying in the sky as a passenger ferry sails away, leaving behind its tail waves. A wide shot in the style of unsplash photography.  --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/137.png" alt="Image 137">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A panettone with powder sugar being sprinkled on it, dark background, food photography, minimalistic, soft light, high resolution --ar 51:64 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/138.png" alt="Image 138">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A professional product photography of a perfume bottle in front of a vintage background  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/139.png" alt="Image 139">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Beautiful white cherry blossoms in full bloom, delicate and fresh flowers on the branches of trees against a clear sky background, softly focused photography, in the style of Japanese style, with a macro lens, using natural light, capturing the spring atmosphere, with a fresh color tone. --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/140.png" alt="Image 140">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of the beach at sunset, with waves crashing against shore and orange sunlight reflecting on wet sand. The sky is dark blue with some clouds in it. In front theres an area where you can see small drops of water that have fallen from above onto the ground, making them visible. This scene gives off feelings of calmness and solitude, as if one were alone watching nature in its beauty.  --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+<div class="gallery-item">
+    <img src="assets/141.png" alt="Image 141">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of coffe , on a rustic wooden table with a red checkered cloth and broken chunks of cookies nearby. Studio lighting against a dark grey background, a low angle view, centered composition. High resolution, very realistic, high quality photography with high detail --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/142.png" alt="Image 142">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('dark green large leaves of anthurium, close up, photography, aerial view, in the style of unsplash, hasselblad h6d400c  --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/143.png" alt="Image 143">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A dark blue T4 van, painted grey, with open doors sits in the English countryside surrounded by poppies and wild flowers. Shot on a Canon EOS R5 mirrorless camera using an f/2 lens, in the style of pop art. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/144.png" alt="Image 144">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('photography of a woman in the distance between giant palm trees, golden hour, misty atmosphere, in an oasis with date palms, --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/145.png" alt="Image 145">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('An illustration of a stars background with a modern vibe to it, using mainly blue color  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/146.png" alt="Image 146">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A Bicycle against a dark background with a mysterious atmosphere and cool color tones with soft side lighting in the portrait photography style of high contrast between light and shadow, glow effect. light leak, bokeh')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/147.png" alt="Image 147">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A vibrant and detailed vector illustration of an traditional japanese mask, koji fish in dark purple color scheme with tropical flowers and leaves. The design incorporates deep purples and reds, creating a rich and lively atmosphere. --ar 96:101 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/148.png" alt="Image 148">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A full-body photograph of Surfer in the style of unique fashion statement, shot in wide shot image, high contrast, blurry image, bokeh -')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/149.png" alt="Image 149">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('photography of Cat colorful light and shadow, blurred motion, colorful, double exposure, colorful background, dreamy, fantasy, soft lighting, vibrant colors, long shot, portrait, surreal photography, glitter dust, flower bokeh light')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/150.png" alt="Image 150">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('portrait of an attractive old man with long hair, wearing glasses and a business suit, isolated on a dark background, soft light, shot in the style of Wes Anderson cinematography, hyper realistic photography --ar 47:64 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+<div class="gallery-item">
+    <img src="assets/151.png" alt="Image 151">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A train on move. Reflections are visible in water puddles on a cloudy day, taken with a Canon EOS R5 in the style of no particular artist. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/152.png" alt="Image 152">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('An old mustang. The scene is captured on film, with the focus sharp on both people and sky, and the overall mood warm and serene, with soft natural lighting enhancing the sense of tranquility. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/153.png" alt="Image 153">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A real photography close-up of a car wheel in a cinematic style  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/154.png" alt="Image 154">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Crab on the black sand beach, waves crashing against rocks, dark cave atmosphere, dark blue and orange tones, cinematic, hyper realistic --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/155.png" alt="Image 155">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A portrait of a Hamburger in the dark, illuminated by an intense yellow light from above, with a soft blue gradient background. This scene evokes a sense of mystery or contemplation, highlighting the beauty of the subject's features against the contrasting backdrop, lens glossy effect, high contrast, star bokeh')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/156.png" alt="Image 156">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Tree in the style of detailed illustration, in pastel colors, A pixelated game screen background with small squares in front, In the style of a retro video games graphics.')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/157.png" alt="Image 157">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A magazine-like photograph, nikon 500, of a waterfall right at sunrise  --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/158.png" alt="Image 158">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('macro shot of water droplets on the hood, black and white, grainy, blurry, dark background, cinemati --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/159.png" alt="Image 159">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Black and white photography of the moon, in the sea. It is a simple composition. --ar 3:4 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/160.png" alt="Image 160">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A magazine-like photograph, nikon 500, of a waterfall right at sunrise  --v 6.0 --style raw')"></i>
+</div>
+
+
+
+<div class="gallery-item">
+    <img src="assets/161.png" alt="Image 161">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of an off-road vehicle with cargo on the roof driving in the forest. A white camper van is parked at a scenic spot overlooking lake, in the style of drone shot, cinematic, unsplash. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/162.png" alt="Image 162">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Photography of woman laying on the beach, dark and moody, waves crashing against rocks, she is wearing an orange dress, dark cave background, soft light, hyper realistic photography, cinematic lighting, editorial pose --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/163.png" alt="Image 163">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo of the top peak underwater, surrounded by water. Shot on Canon EOS R5 using natural light, neutral white background, low angle shot, minimalist photography, simple composition, high definition details, clean sharp focus in the style of minimalist photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/164.png" alt="Image 164">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Raindrops in the face of a man, monochrome, macro photography, f/2.8 --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/165.png" alt="Image 165">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Mountains, the background is starry sky gray blue gradient, with white clouds floating around it. This artwork was created using digital painting techniques. It features a handdrawn style, rough edges, and features a colorful cartoon illustration style')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/166.png" alt="Image 166">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Oil painting of Man in the style of Classic Masters of painting, grey background, spot light, warm atmosphere, vibrant color palette')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/167.png" alt="Image 167">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A stylized illustration of a Cat, with layers of color, in shades of pink and purple, set against a vibrant background with bold red lines that create dynamic patterns around the petal edges. The overall feel is playful yet sophisticated, suitable for modern art prints or digital illustrations. In the style of a children's book illustrator or warfare artist')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/168.png" alt="Image 168">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('The background shows blue city and colorful drops. It's summertime, it’s sunny, and we see bright sunlight reflecting off the surface of the clear blue water. --ar 3:4 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/169.png" alt="Image 169">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Close up of tree bark, realistic and hyper detailed with a cinematic look and feel. Volumetric light and soft shadows with no contrast and a bokeh effect. High resolution photography in the style of octane render, appearing photorealistic with super fine details and sharp focus with no blur. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/170.png" alt="Image 170">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Cat glowing shapes in the background, by award winning photographer, broken heart is drawn inside body shape, in style dark aesthetic surrealism, minimalistic, white light effects, portrait photography, art nouveau, fullbody shot, ghostly forms, dark black background, surreal photonegative refractograph')"></i>
+</div>
+
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/171.png" alt="Image 171">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A silver grey cat wearing sunglasses and a tuxedo, as an agent in the movie The Matrix, in the style of a real photo --ar 43:31 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/172.png" alt="Image 172">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Old Sculpture, minimalistic, vintage style, grainy, faded, in the style of photorealism, octane render, cinematic light, in the style of surrealism, low angle shot, hyper realistic, extreme detail, hdr --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/173.png" alt="Image 173">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A Cityscape, in white in the style of Comic Illustration. The background is blue, light red and white, creating a beautiful composition. creates harmony and serenity. A feeling that she smiling to herself.')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/174.png" alt="Image 174">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A Surfer, in white in the style of Comic Illustration. The background is blue, light red and white, creating a beautiful composition. creates harmony and serenity. A feeling that she smiling to herself.')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/175.png" alt="Image 175">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Mountains The background color should be bright yellow, In a big room. The overall mood would capture intense magenta lighting. Its an artistic photography. This photograph was taken by an award winning photographer using Canon EOS R5 camera and Fujifilm Provia film stock, color negative, invert, lens aberration, color aberration, deep focus, light leak')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/176.png" alt="Image 176">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of the front view portrait of an Cat in a full body dynamic pose on a red background in the style of high fashion moment, with rich colors, dramatic light, in a fantasy art style, with surrealism, elegant details, a golden ratio composition, and detailed texture')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/177.png" alt="Image 177">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Bird the background lighting casts shadows over body shapes, desert, creating an atmosphere of intense focus and determination, hyper realistic photograph in the style of photography, nature')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/178.png" alt="Image 178">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('T-shirt vector design of the head and shoulders of an liom robot in yellows and blacks , a detailed and epic composition, tshirt print in the style of streetwear brand --ar 7:8 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/179.png" alt="Image 179">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('The iris of an eye, a dark red color with the sun in it, a small black hole inside, a little light emanating from behind, night sky background, high definition photography, texture detail, dark atmosphere, top view, macro lens, low angle, mysterious and terrifying --ar 21:32 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/180.png" alt="Image 180">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A white door is opened in the sky, and stairs lead down to an empty desert at night. The staircase leads from bottom left corner of frame to top right corner of frame. A bright light shines on it. Realistic photography style. High resolution. --ar 51:64 --v 6.0 --style raw')"></i>
+</div>
+
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/181.png" alt="Image 181">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A car moving on the road ghostly light effect, low angle shot, hyper realistic, fine details, cinematic photography, shallow depth of field, 85mm f/2 lens --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/182.png" alt="Image 182">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Hamburger, The background is painted with large strokes in bright green tones. A painting in the style of contemporary street artist')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/183.png" alt="Image 183">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a portrait of Hamburger, painted by a dadaist abstract artist. a colorful character with a whismical theme, the background color is dark blue. All depicted by very colorful brush strokes. It all looks like a cartoon from 90')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/184.png" alt="Image 184">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A dog dressed as a chef in the kitchen, surrounded by cooking utensils and ingredients. The scene is set with warm lighting to create a cozy atmosphere. The background features stainless steel appliances and white walls, adding depth to the composition. This shot captures dogs wearing aprons while preparing food, creating an adorable and humorous visual of anthropomorphic animals engaging in human activities. Photographed using Canon EOS R5 camera with Canon RF 2470mm f/8L IS USM lens at shutter speed ISO64, aperture F3.2 --ar 128:91 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/185.png" alt="Image 185">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Dark tones, a staircase leading to the top of the frame, a subway entrance, a dimly lit environment, a subway atmosphere, high resolution photography, high quality. Stairs lead up in the style of a subway entrance in a dimly lit, atmospheric environment captured with high resolution, high quality photography. --ar 85:128 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/186.png" alt="Image 186">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of the front view portrait of an Tree in a full body dynamic pose on a red background in the style of high fashion moment, with rich colors, dramatic light, in a fantasy art style, with surrealism, elegant details, a golden ratio composition, and detailed texture')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/187.png" alt="Image 187">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a yellow car in an underground parking lot, dark light, shot on kodak gold 400 --ar 43:64 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/188.png" alt="Image 188">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A drawing of an man made out of Tree, with a blue sky background, in the style of Stylized llustration, with soft pastel colors, pop art')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/189.png" alt="Image 189">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A portrait of a Flower in the dark, illuminated by an intense yellow light from above, with a soft blue gradient background. This scene evokes a sense of mystery or contemplation, highlighting the beauty of the subject's features against the contrasting backdrop, lens glossy effect, high contrast, star bokeh')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/190.png" alt="Image 190">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photo, the reflection shows Boat, and the sky with colorful clouds, sunset, double exposure, surrealism art, award winning photography in the style of instant film, Fujifilm Pro 400H film, color negative film, add noise, grain')"></i>
+</div>
+
+
+
+
+
+
+
+<div class="gallery-item">
+    <img src="assets/191.png" alt="Image 191">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('a portrait of Tree, in the style of novel visual, black background, an array of floating shapes and forms representing the cosmos, with large geometric circles in shades with monochromatic contrast, and small black dots scattered throughout. In between these shapes is a miniature cityscape made up of tiny buildings, trees, and other urban elements. The overall effect should be one of whimsy and fantasy, with a surreal quality that gives it a dreamlike feel. invert chanels, color negative')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/192.png" alt="Image 192">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A photograph of a Surfer with, wakeup, standing against a abstract background background, in the style of surrealist photography, theater influence, strong spot light')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/193.png" alt="Image 193">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Boat, in the style of digital art, pastel colors, simple background, flat illustration, closeup, front view, comic stripe, collage, experimental')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/194.png" alt="Image 194">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('dark silhouette of yamah motorcycle, black background, minimalism, dark lighting, shot with canon eos r5  --ar 4:3 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/195.png" alt="Image 195">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('real antique furniture products displayed, nostalgic and timeless, late afternoon, sepia-toned, classic color film, DSLR, 35mm prime lens, richly detailed  --ar 128:85 --v 6.0 --style raw')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/196.png" alt="Image 196">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('vintage photo of a Man in the style of modern art, full body, perfect composition, facing the camera, with a full moon light, low contrast, fashion photography, the old photograph is grainy, aged, with film dust and scratches')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/197.png" alt="Image 197">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('pixel art of Cat in the middle of a scene in the style of fantasy creatures, 2D game asset, pixelart, 8-bit aesthetic, low resolution, simple design, dark background, pixel perfect, 40x35 pixels, no shadows, isometric view, water')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/198.png" alt="Image 198">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Photography of a Candlelight in the style of Caravaggio\'s chiaroscuro light. Renaissance theme and composition against a dark background and a chiaroscurro color scheme, studio photography')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/199.png" alt="Image 199">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A Bird with colorful light and laser beams hitting it from behind, illuminated by bright rays of sunlight. The photo was taken using a Canon EOS R5 camera, an 80mm f/2 lens at an aperture setting of f4 to capture sharp details. In the style of luminous colors and radiant lights, with white lighting and a black background')"></i>
+</div>
+<div class="gallery-item">
+    <img src="assets/200.png" alt="Image 200">
+    <i class="fas fa-copy copy-icon" onclick="copyToClipboard('A bizarre pop art-inspired poster featuring an illustration of Child. The background is a bright blue and green, with bold colors and a playful vibe. The illustrations are in the style of bizarre pop art, contemporary artist')"></i>
+</div>
+
+
+
+
+
+
+
+
+  
+      
+        
+      
+        <!-- Add more gallery items as needed -->
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            var dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            alert("Copied to clipboard: " + text);
+        }
+    </script>
+</body>
+</html>

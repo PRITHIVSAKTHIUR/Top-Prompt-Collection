@@ -1,0 +1,7 @@
+a. Silhouette of Hamburger standing in front of a, dark blue sky, a little saturated orange in the background sunset, night time, dark background, dark black hair, cinematic photography, cinematic lighting, dark theme, shattered camera lens, digital photography, 70mm, f2.8, lens aberration, grain, boke, double exposure, shaterred, color negative 
+
+b.A professional product photography of a (coffee cup, perfume bottle, hoodie) in front of a (vintage, modern) background --v 6.0 --style raw
+
+c.A card game soft focus, dreamy atmosphere, natural light, detailed texture, romantic style, closeup shot --ar 85:128 --v 6.0 --style raw
+
+d. A plastic orange Greek column with an emerald green head of Alexander the Great in the style of Alexander the Great, purple background, product photography --ar 85:128 --v 6.0 --style raw
